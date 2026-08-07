@@ -1,4 +1,4 @@
-import { verificarAcceso, cerrarSesion } from '../login/autorizar.js';
+import { verificarAcceso, cerrarSesion } from './autorizar.js';
 verificarAcceso();
 
 const inputId = document.getElementById("input-id");
