@@ -1,4 +1,4 @@
-import { verificarAcceso, cerrarSesion, buildSiteUrl } from './autorizar.js';
+import { verificarAcceso, cerrarSesion } from './autorizar.js';
 verificarAcceso();
 
 const sesion = document.getElementById("btn-cerrar-sesion");
