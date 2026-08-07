@@ -1,4 +1,4 @@
-import { obtenerUsuarioLogeado, verificarAcceso, buildSiteUrl } from './autorizar.js';
+import { obtenerUsuarioLogeado, verificarAcceso } from './autorizar.js';
 
 const inputNombre = document.getElementById("input-nombre");
 const inputPassword = document.getElementById("input-password");
