@@ -26,6 +26,7 @@ btnRegistrar.addEventListener("click", async () => {
         errorUsuario.textContent = "Buscando Credenciales...";
         await retraso(1000);
         errorUsuario.textContent = "Credenciales Encontradas";
+        await retraso(1000);
         window.location.href ="hub.html";
     } else {
         errorUsuario.textContent = "Credenciales Incorrecto";
