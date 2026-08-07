@@ -1,4 +1,4 @@
-import { verificarAcceso, cerrarSesion, buildSiteUrl } from '../login/autorizar.js';
+import { verificarAcceso, cerrarSesion, buildSiteUrl } from './autorizar.js';
 verificarAcceso();
 
 const sesion = document.getElementById("btn-cerrar-sesion");
@@ -6,5 +6,5 @@ const sesion = document.getElementById("btn-cerrar-sesion");
 
 sesion.addEventListener("click", ()=> {
     cerrarSesion();
-    window.location.href = buildSiteUrl("index.html");
+    window.location.href ="index.html";
 });
