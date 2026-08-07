@@ -16,5 +16,5 @@ export function verificarAcceso() {
 
 export function cerrarSesion() {
     localStorage.removeItem("UsuarioLogeado");
-    window.location.href = buildSiteUrl("index.html");
+    window.location.href = "index.html";
 }
