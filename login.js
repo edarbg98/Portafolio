@@ -12,7 +12,8 @@ const usuario = [
     {nombre: "Victor", contraseña: "951014"},
     {nombre: "Tony", contraseña: "951014"},
     {nombre: "Maller", contraseña: "951014"},
-    {nombre: "Maryori", contraseña: "951014"}
+    {nombre: "Maryori", contraseña: "951014"},
+    {nombre: "Yerson", contraseña: "951014"}
 ];
 
 btnRegistrar.addEventListener("click", async () => {
